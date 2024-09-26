@@ -1,0 +1,11 @@
+commit c18307da97843bf607c5755bad9d350fe2d16153
+Author: José Manuel <josemanuel3606@gmail.com>
+Date:   Thu Sep 26 19:23:18 2024 +0200
+
+    Confirmación inicial
+
+commit a7f27a42af99bed152460521c1fed0f3393a3248
+Author: José Manuel <149500751+JoseManuel134975@users.noreply.github.com>
+Date:   Thu Sep 26 19:21:28 2024 +0200
+
+    Initial commit
