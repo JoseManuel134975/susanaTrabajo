@@ -14,6 +14,7 @@ body{
 }
 
 header{
+    /* Posicionamiento de elementos en flex box */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +27,7 @@ header{
 header img{
     border: 3px solid black;
     border-radius: 100px;
-    max-width: 100%;
+    max-width: 100%; /* Ancho fijo de la imagen (nunca supera el 100% de su padre) */
 }
 
 header div{
