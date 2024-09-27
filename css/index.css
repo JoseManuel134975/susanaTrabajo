@@ -6,14 +6,12 @@ body{
     margin: 20px auto;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 80%;
+    width: 70%;
     background-color: white;
     border-radius: 10px;
     border: 3px solid black;
     text-align: center;
 }
-
-
 
 header{
     display: flex;
@@ -28,6 +26,11 @@ header{
 header img{
     border: 3px solid black;
     border-radius: 100px;
+    max-width: 100%;
+}
+
+header div{
+    width: 30%;
 }
 
 nav ul{
@@ -97,8 +100,26 @@ footer{
 
 footer p{
     font-weight: bold;
-    
+    width: 30%;
 }
+
+footer p:nth-child(1){
+    text-align: left;
+}
+
+footer p:nth-child(2){
+    text-align: center;
+}
+
+footer p:nth-child(3){
+    text-align: right;
+}
+
+footer img{
+    max-width: 100%;
+    width: 20%;
+}
+
 
 /* ! Clase que solamente se aplica cuando se ejecuta 'index.js'  
 * Aplica bold a los "títulos" que hay después de cada viñeta (<li>) de manera automatizada
