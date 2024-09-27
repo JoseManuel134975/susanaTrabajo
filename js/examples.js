@@ -1,3 +1,9 @@
+/**
+ * Función para mostrar una alerta con la información de la imagen
+ * @param {HTMLElement} img La imagen
+ * @returns {void}
+ */
+
 // Seleccionamos todas las imágenes con la clase 'info-img'
 const infoImages = document.querySelectorAll('.info-img');
 

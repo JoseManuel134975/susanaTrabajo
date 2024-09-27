@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/** Generales **/
 body{
     margin: 20px auto;
     padding: 20px;
@@ -40,6 +41,7 @@ nav ul{
     list-style: none;
 }
 
+/** Estilos **/
 a{
     color: black;
     text-decoration: none;
@@ -89,6 +91,7 @@ aside{
     background-color: rgba(244,226,27,255);
 }
 
+/** Generales **/
 footer{
     display: flex;
     justify-content: space-between;
@@ -122,7 +125,7 @@ footer img{
 }
 
 
-/* ! Clase que solamente se aplica cuando se ejecuta 'index.js'  
+/* ! Clase que solamente se aplica cuando se ejecuta 'index.js (NO GENERAL)'  
 * Aplica bold a los "títulos" que hay después de cada viñeta (<li>) de manera automatizada
 * De este modo no es necesario aplicar estilo manualmente
 */

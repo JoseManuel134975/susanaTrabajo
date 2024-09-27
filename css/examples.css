@@ -47,6 +47,7 @@ a{
 }
 
 .partOne-columns, .partTwo-columns{
+    /* Posicionamiento de elementos en flex box mediante flex-direction: row (columnas horizontalmente y gap */
     display: flex;
     flex-direction: row;
     gap: 20px;

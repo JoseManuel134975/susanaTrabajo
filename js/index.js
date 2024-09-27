@@ -1,3 +1,9 @@
+/**
+ * Función para cambiar el estilo de negrita de los elementos <li>
+ * @param {HTMLElement} item El elemento <li>
+ * @returns {void}
+ */
+
 // Selecciona todos los elementos <li> dentro del <ol>
 const items = document.querySelectorAll('ol li, ul li');
 
