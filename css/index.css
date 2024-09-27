@@ -30,8 +30,8 @@ header img{
     max-width: 100%; /* Ancho fijo de la imagen (nunca supera el 100% de su padre) */
 }
 
-header div{
-    width: 30%;
+.logo{
+    width: 20%;
 }
 
 nav ul{
